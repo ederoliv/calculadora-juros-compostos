@@ -3,7 +3,7 @@ package io.github.ederoliv;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Calculadora");
+        System.out.println("Calculadora1");
 
         /*
         A = P (1 + i) ^ t
