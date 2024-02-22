@@ -5,14 +5,25 @@ public class Main {
 
         System.out.println("Calculadora1");
 
+        double valorFinal = 0;
+        double valorInicial = 1000;
+        double taxaJuros = 10;
+        double tempoInvestimento = 12;
+
+
+        valorFinal =  valorInicial + (Math.pow(1 + taxaJuros, tempoInvestimento));
+
+        System.out.println("Valor final: " + valorFinal);
+
         /*
+
         A = P (1 + i) ^ t
 
     Para entender melhor a fórmula segue a explicação de cada variável:
 
-    A = valor final, ou seja, o resultado que você terá;
-    P = valor inicial depositado;
-    i = taxa de juros;
+    A = valorFinal, ou seja, o resultado que você terá;
+    P = valorInicial depositado;
+    i = taxaJuros;
     t = tempo do investimento.
 
          */
