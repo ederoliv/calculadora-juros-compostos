@@ -38,6 +38,7 @@ public class Main {
         System.out.println(letreiro + "\n Deseja fazer o cálculo por mês(1) ou ano(20) ? \n Escolha uma opção");
 
 
+
     }
 
     public static void calculoMensal(BufferedReader input) {
